@@ -71,12 +71,23 @@
                     git merge main
 
         second way -- Pull Requests
+        
         <br>
-                    Merging Conflict
-        <p>Main Feature<input type="password"></p>
-        <p>Feature1 Feature<dropdown></dropdown></p>
+                    Undo changes
 
+        case 1 : staged Changed
+                    
+                    git reset file_name
+                    git reset
 
+        case 2 : commit chnages 
+
+                    git reset HEAD-1
+
+        Case 3 : commited changes(for many commits)
+
+                    git reset <-commit hash->
+                    git reset --hard<--commit hash-->
 
     </div>
 </body>
